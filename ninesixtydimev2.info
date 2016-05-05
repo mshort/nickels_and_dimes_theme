@@ -1,0 +1,28 @@
+name = ninesixtydimev2
+base theme = ninesixty
+description = Nine Sixty Dime Novels V2
+core = 7.x
+screenshot = screenshot.png
+
+; Theme specific styles. Any sub-themes should override this.
+stylesheets[all][] = styles/styles.css
+
+
+; Regions
+
+regions[site_header] = Site Header
+regions[site_subheader] = Site Sub Header
+regions[sitebranding] = Site Branding
+regions[siteinfo] = Site Info
+regions[slide_show] = Slide Show
+regions[islandora_search] = Islandora Search
+regions[browse] = Islandora Browse
+regions[tabs] = Islandora Tabs
+regions[service] = Service Links
+regions[content] = Main Content
+regions[about] = About Block
+regions[recent] = Recent Block
+regions[sitenavigation] = Site Navigation
+regions[footerleft] = Footer Left
+regions[footermiddle] = Footer Middle
+regions[footerright] = Footer Right
